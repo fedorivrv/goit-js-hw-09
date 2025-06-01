@@ -1,0 +1,26 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-item {
+  max-width: 360px;
+}
+.gallery-item :hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
