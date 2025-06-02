@@ -30,3 +30,18 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+.nav-container {
+  margin: 0 auto;
+  max-width: 360px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.nav li {
+  background-color: aquamarine;
+  padding: 24px;
+  border-radius: 24px;
+}
